@@ -107,7 +107,21 @@ button{
     font-size: 24px;
     font-weight: medium;
     color: white;
+    display: block;
+    margin: 0 auto;
+}
+button.Join{
+    background-color: #608791;
+    border-radius: 18px;
+    border: none;
+    padding: 20px 50px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: medium;
+    color: white;
     display: inline-block;
+
+
 }
 
 
@@ -116,6 +130,17 @@ header{
     background-color: #A64044;
     height: auto;
     width: auto;
+}
+.heroimg{
+    text-align: center;
+}
+.mission{
+    position: absolute;
+    bottom: 1px;
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
 }
 
 .logo{
@@ -148,6 +173,7 @@ section.Labs{
     background-color: white;
 }
 Section.Join{
+    text-align: center;
     background-color: #A64044;
 }
 section.Upcoming-Events{
