@@ -1,10 +1,7 @@
-## Welcome to GitHub Pages
+## Starting with HTML
+For this design I started coding all of the web elements in html before moving to css. I wanted to make sure that I included all necessary information before trying to style anything to ensure that the page was not missing any crucial information.
 
-You can use the [editor on GitHub](https://github.com/madFish2020/UX_UI_HW_17/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
+### The Header
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
