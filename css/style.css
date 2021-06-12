@@ -6,6 +6,7 @@ h1{
     text-align: center;
     color: white;
 }
+
 h2{
     font-family: 'Rubik', sans-serif;
     font-size: 38px;
@@ -124,7 +125,6 @@ button.Join{
 
 }
 
-
 /*Positioning on page* and colors*/
 header{
     background-color: #A64044;
@@ -132,13 +132,21 @@ header{
     width: auto;
 }
 .heroimg{
-    position: relative;
+    display: block;
+    margin-left: auto;
+   margin-right: auto;
 }
 .mission{
     position: absolute;
-    bottom: 250px;
-    background-color: black;
+    bottom: -320px;
+    right: 150px;
+    width: 80%;
+    height: inherit;
+    opacity: 0.6;
     color: white;
+    background-color: black;
+    
+    
 }
 
 .logo{
