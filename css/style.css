@@ -209,6 +209,10 @@ div.Donation{
     background-color:#A64044 ;
     height:487px;
 }
+div.Labs{
+    text-align: center;
+    
+}
 img.left{
     float: left;
 }
