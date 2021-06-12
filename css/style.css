@@ -61,8 +61,8 @@ p.Copyright{
 p.Donation{
     font-size: 24px;
     font-weight: medium;
-    text-align: center;
     color: white;
+   
 }
 p.Join{
     font-size: 24px;
@@ -168,13 +168,7 @@ ul{
     width: 50px;
     margin-left: auto;
 }
-section.heroImg{
-      background-color: black;
-}
-section.Donation{
-    background-color:#A64044 ;
-    
-}
+
 section.Labs{
     background-color: white;
 }
@@ -190,6 +184,19 @@ div.navigation{
     background-color: #DAE2E4;
     padding: 20px;
 }
+div.Donation{
+    text-align: center;
+    background-color:#A64044 ;
+    height:487px;
+}
+img.left{
+    float: left;
+}
+img.right{
+    vertical-align: top;
+    float: right;
+}
+
 
 footer{
     display: inline-block;
