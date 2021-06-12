@@ -14,6 +14,7 @@ h2{
     text-align: center;
     color: white;
 }
+
 h3{
     font-family: 'Rubik', sans-serif;
     font-size: 64px;
@@ -47,9 +48,11 @@ h5{
 h6{
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
+    padding-right:100px ;
     font-weight: 500;
     text-align: center;
     color: black;  
+    
 }
 
 /* Fonts Paragraph Text*/
@@ -77,6 +80,7 @@ p.Copyright{
     font-size: 18px;
 }
 p.Donation{
+   
     font-size: 24px;
     font-weight: medium;
     color: white;
@@ -99,20 +103,14 @@ p.Upcoming-Events{
 a.facebook{
     float: right;
 }
-a.active{
-    color: white;
-    background-color: #608791;
-    text-align: center;
-    text-decoration: none;
-    padding: 14px 130px;
-}
+
 a.inactive{
 font-family: 'Rubik', sans-serif;
 font-size: 24;
 font-weight: 500;
 text-align: center;
 text-decoration: none;
-padding: 14px 80px;
+padding: 14px 100px;
 color: black;
 }
 
@@ -148,9 +146,11 @@ header{
     background-color: #A64044;
     height: auto;
     width: auto;
+    overflow: hidden;
 }
 .heroimg{
-    display: block;
+    width: 100%;
+    z-index: 0;
     margin-left: auto;
    margin-right: auto;
 }
@@ -160,11 +160,9 @@ header{
     right: 150px;
     width: 80%;
     height: inherit;
-    color: white;
-    opacity: 0.6;
     background-color: black;
-    
-    
+    opacity: 0.6;
+    color: white;
 }
 
 .logo{
@@ -172,19 +170,20 @@ header{
     padding: 1%;
 }
 nav.navigation{
-    background-color: #DAE2E4;  
-    width: auto;
-
-}
-
-input{
     text-align: center;
-    display: block;
+    background-color: #DAE2E4;
+    overflow: hidden;  
+    width: 100%;
 
 }
+
+
 ul{
-    width: 50px;
-    margin-left: auto;
+    overflow: hidden;
+
+}
+h6{
+    display: inline;
 }
 
 section.Labs{
@@ -205,6 +204,7 @@ div.navigation{
     padding: 20px;
 }
 div.Donation{
+    margin-top: -40px;
     position: relative;
     background-color:#A64044 ;
     height:487px;
@@ -223,7 +223,11 @@ img.right{
 
 
 footer{
-    display: grid;
+    margin-top: 100px;
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 0 auto;
     background-color: #DAE2E4;
 }
 
